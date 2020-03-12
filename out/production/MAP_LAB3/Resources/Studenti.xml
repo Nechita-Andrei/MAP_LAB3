@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Studenti>
+    <student Id="1">
+        <Numele>Nechita</Numele>
+        <Prenumele>Dana</Prenumele>
+        <grupa>223</grupa>
+        <email>bog@yahoo.com</email>
+        <Profesor>Chisalita</Profesor>
+    </student>
+    <student Id="2">
+        <Numele>Panzariiuuu</Numele>
+        <Prenumele>Octavian</Prenumele>
+        <grupa>224</grupa>
+        <email>dqwkeh@dhqwe.com</email>
+        <Profesor>Marihqew</Profesor>
+    </student>
+    <student Id="3">
+        <Numele>Jewqoje</Numele>
+        <Prenumele>Ojeiqw</Prenumele>
+        <grupa>221</grupa>
+        <email>hjwqe@yahoo.com</email>
+        <Profesor>Oejwqe</Profesor>
+    </student>
+    <student Id="4">
+        <Numele>Kewqope</Numele>
+        <Prenumele>Ieiqwoe</Prenumele>
+        <grupa>222</grupa>
+        <email>ewqe@jhwq.com</email>
+        <Profesor>Meqwewq</Profesor>
+    </student>
+</Studenti>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerTema">
+    <children>
+        <SplitPane dividerPositions="0.7437185929648241" layoutX="-3.0" layoutY="6.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                    <children>
+                        <TableView fx:id="tableView" layoutX="1.0" layoutY="-2.0" prefHeight="293.0" prefWidth="598.0" style="-fx-background-color: white;">
+                            <columns>
+                                <TableColumn fx:id="column_temaId" prefWidth="75.0" text="Id" />
+                                <TableColumn fx:id="column_temaStartWeek" prefWidth="75.0" text="StartWeek" />
+                                <TableColumn fx:id="column_temaDeadlineWeek" prefWidth="75.0" text="DeadlineWeek" />
+                                <TableColumn fx:id="column_temaDescriere" prefWidth="75.0" text="Descriere" />
+
+                            </columns>
+                            <columnResizePolicy>
+                                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                            </columnResizePolicy>
+                        </TableView>
+                    </children>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: dark;">
+                    <children>
+                        <HBox layoutY="29.0" prefHeight="70.0" prefWidth="598.0" spacing="15.0" style="-fx-background-color: red;">
+                            <children>
+                                <Button mnemonicParsing="false" onAction="#handleAddT" style="-fx-background-color: yellow;" text="AdaugareT">
+                                    <font>
+                                        <Font name="Comic Sans MS" size="12.0" />
+                                    </font></Button>
+                                <Button mnemonicParsing="false" onAction="#handleDeleteT" style="-fx-background-color: yellow;" text="StergereT">
+                                    <font>
+                                        <Font name="Comic Sans MS" size="12.0" />
+                                    </font></Button>
+                                <Button mnemonicParsing="false" onAction="#handleUpdateT" style="-fx-background-color: yellow;" text="ModificaT">
+                                    <font>
+                                        <Font name="Comic Sans MS" size="12.0" />
+                                    </font></Button>
+                            </children>
+                        </HBox>
+                    </children></AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>

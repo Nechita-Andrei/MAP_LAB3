@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="532.0" prefWidth="1012.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerNota">
+   <children>
+      <TableView fx:id="tableView" layoutX="-1.0" layoutY="2.0" prefHeight="338.0" prefWidth="1012.0">
+        <columns>
+          <TableColumn fx:id="column_nota" prefWidth="75.0" text="NotaFinala" />
+          <TableColumn fx:id="column_NumeStudent" prefWidth="110.0" text="Student" />
+            <TableColumn fx:id="column_tema" prefWidth="281.0" text="Tema" />
+            <TableColumn fx:id="column_feedback" prefWidth="224.0" text="Feedback" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Button layoutX="638.0" layoutY="397.0" mnemonicParsing="false" onAction="#handleAddN" prefHeight="39.0" prefWidth="167.0" text="AdaugaNota" />
+      <Button layoutY="349.0" mnemonicParsing="false" onAction="#handleFinal" prefHeight="39.0" prefWidth="157.0" text="MediaFinala" />
+      <Button layoutY="396.0" mnemonicParsing="false" onAction="#tema_grea" prefHeight="39.0" prefWidth="157.0" text="Tema grea" />
+      <Button layoutY="445.0" mnemonicParsing="false" onAction="#examen_studenti" prefHeight="39.0" prefWidth="157.0" text="Examen" />
+      <Button layoutY="487.0" mnemonicParsing="false" onAction="#Handlepredat" prefHeight="39.0" prefWidth="157.0" text="PredatLaTimp" />
+      <TextField fx:id="temaGrea_field" layoutX="160.0" layoutY="400.0" prefHeight="32.0" prefWidth="157.0" />
+      <TextField fx:id="tema_fieldM" layoutX="317.0" layoutY="400.0" prefHeight="32.0" prefWidth="253.0" />
+      <ComboBox fx:id="examen_box" layoutX="164.0" layoutY="452.0" prefHeight="25.0" prefWidth="157.0" promptText="Studentii:" />
+      <ComboBox fx:id="timp_studenti" layoutX="164.0" layoutY="494.0" prefHeight="25.0" prefWidth="157.0" promptText="Studenti:" />
+   </children>
+</AnchorPane>

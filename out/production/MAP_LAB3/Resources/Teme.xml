@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<homeworks>
+    <homework id="1">
+        <StartWeek>6</StartWeek>
+        <deadlineWeek>10</deadlineWeek>
+        <descriere>fwerw</descriere>
+    </homework>
+    <homework id="3">
+        <StartWeek>10</StartWeek>
+        <deadlineWeek>13</deadlineWeek>
+        <descriere>daaa</descriere>
+    </homework>
+    <homework id="5">
+        <StartWeek>10</StartWeek>
+        <deadlineWeek>12</deadlineWeek>
+        <descriere>dasd</descriere>
+    </homework>
+</homeworks>

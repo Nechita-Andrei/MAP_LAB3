@@ -1,0 +1,5 @@
+Tema: 1
+Nota: 10
+Predata in saptamana: 8
+Deadline: 9
+Feedback: nu a facut nimic

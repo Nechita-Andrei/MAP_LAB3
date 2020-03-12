@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Grades>
+    <grade id="1">
+        <student id="1">
+            <firstName>Nechita</firstName>
+            <lastName>Dana</lastName>
+            <group>223</group>
+            <email>bog@yahoo.com</email>
+            <teacher>Chisalita</teacher>
+        </student>
+        <homework id="5">
+            <StartWeek>10</StartWeek>
+            <deadlineWeek>12</deadlineWeek>
+            <description>dasd</description>
+        </homework>
+        <teacherNota/>
+        <isLate>1</isLate>
+        <Feedback>dewqe</Feedback>
+        <dataPredarii>12</dataPredarii>
+        <firstGrade>9</firstGrade>
+        <finalGrade>9</finalGrade>
+    </grade>
+    <grade id="2">
+        <student id="2">
+            <firstName>Panzariiuuu</firstName>
+            <lastName>Octavian</lastName>
+            <group>224</group>
+            <email>dqwkeh@dhqwe.com</email>
+            <teacher>Marihqew</teacher>
+        </student>
+        <homework id="1">
+            <StartWeek>6</StartWeek>
+            <deadlineWeek>10</deadlineWeek>
+            <description>fwerw</description>
+        </homework>
+        <teacherNota/>
+        <isLate>0</isLate>
+        <Feedback>eqweq</Feedback>
+        <dataPredarii>12</dataPredarii>
+        <firstGrade>10</firstGrade>
+        <finalGrade>0</finalGrade>
+    </grade>
+    <grade id="3">
+        <student id="4">
+            <firstName>Kewqope</firstName>
+            <lastName>Ieiqwoe</lastName>
+            <group>222</group>
+            <email>ewqe@jhwq.com</email>
+            <teacher>Meqwewq</teacher>
+        </student>
+        <homework id="1">
+            <StartWeek>6</StartWeek>
+            <deadlineWeek>10</deadlineWeek>
+            <description>fwerw</description>
+        </homework>
+        <teacherNota/>
+        <isLate>1</isLate>
+        <Feedback>wqweq</Feedback>
+        <dataPredarii>12</dataPredarii>
+        <firstGrade>10</firstGrade>
+        <finalGrade>8</finalGrade>
+    </grade>
+    <grade id="4">
+        <student id="3">
+            <firstName>Jewqoje</firstName>
+            <lastName>Ojeiqw</lastName>
+            <group>221</group>
+            <email>hjwqe@yahoo.com</email>
+            <teacher>Oejwqe</teacher>
+        </student>
+        <homework id="3">
+            <StartWeek>10</StartWeek>
+            <deadlineWeek>13</deadlineWeek>
+            <description>daaa</description>
+        </homework>
+        <teacherNota/>
+        <isLate>0</isLate>
+        <Feedback>NU O FACUT O CERINTA</Feedback>
+        <dataPredarii>13</dataPredarii>
+        <firstGrade>9</firstGrade>
+        <finalGrade>9</finalGrade>
+    </grade>
+</Grades>
